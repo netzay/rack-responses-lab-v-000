@@ -8,6 +8,7 @@ class Application
 
     if t <= "Fri May 25 12:00:00 2018"
       resp.write "Good Morning"
+    end
     if t >= "Fri May 25 12:00:00 2018"
       resp.write "Good Afternoon"
     end
