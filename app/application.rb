@@ -6,7 +6,7 @@ class Application
     t = Time.now
 
 
-    if t < 2018-05-25 12:00:00
+    if t < 2018-05-25 12:00:00 -0600
       resp.write "Goodmorning"
     else
       resp.write "Good Afternoon"
