@@ -6,10 +6,10 @@ class Application
     t = Time.now.asctime
 
 
-    if t <= "Fri May 25 12:00:00 2018"
+    if Time.now < 12:00:00
       resp.write "Good Morning"
     end
-    if t >= "Fri May 25 12:00:00 2018"
+    if Time.now > 12:00:00  
       resp.write "Good Afternoon"
     end
 
