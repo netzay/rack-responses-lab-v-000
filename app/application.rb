@@ -3,7 +3,7 @@ class Application
   def call(env)
     resp = Rack::Response.new
 
-    t = Time.now
+    t = Time.now.asctim
 
 
     if t <= "Fri May 25 12:00:00 2018"
