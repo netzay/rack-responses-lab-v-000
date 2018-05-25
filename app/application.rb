@@ -3,10 +3,10 @@ class Application
   def call(env)
     resp = Rack::Response.new
 
-    t = Time.now
+    t = Time.now.asctime
 
 
-    if t < 2018-05-25 12:00:00 -0600
+    if t < "Fri May 25 12:00:00 2018"
       resp.write "Goodmorning"
     else
       resp.write "Good Afternoon"
